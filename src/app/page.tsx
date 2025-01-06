@@ -3,7 +3,6 @@ import Nav from "./components/Nav";
 import ShortSong from "./components/ShortSong";
 
 
-
 export default function Home() {
   return (
     <div>
@@ -17,8 +16,8 @@ export default function Home() {
           height: '55vh'
   }}> 
       
-          <h1 className="text-6xl font-bold text-white mb-4 mt-80">História das Letras</h1>
-          <p className="text-lg text-white max-w-3xl mx-auto">
+          <h1 className="text-8xl font-script font-bold text-white mb-4 mt-80">História das Letras</h1>
+          <p className="text-sm text-white max-w-3xl mx-auto">
             Aqui nós vamos te contar como que a sua música preferida foi composta, de onde surgiu a inspiração para escrever.
           </p>
         </div>
