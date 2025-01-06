@@ -22,7 +22,7 @@ export default function Home() {
           </p>
         </div>
 
-        <h1 className="text-center text-4xl font-bold text-pink-800 mt-20 mb-4">TOP 15 DO MÊS</h1>
+        <h1 className="text-center text-4xl font-bold text-pink-900 mt-20 mb-4">TOP 15 DO MÊS</h1>
         {/* Seção de Manchetes */}
         <div className="flex flex-wrap justify-center gap-8 p-6">
           

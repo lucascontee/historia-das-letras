@@ -20,7 +20,7 @@ const Nav: React.FC = () => {
 
         {/* Logo ou nome do site */}
         <div className="text-pink-900 text-4xl font-bold">
-          História das Letras
+          HISTÓRIA DAS LETRAS
         </div>
 
         {/* Barra de pesquisa */}
