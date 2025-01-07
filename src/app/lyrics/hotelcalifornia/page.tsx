@@ -9,9 +9,10 @@ const HotelCalifornia: React.FC = () => {
     <div>
         <Nav />
         <MusicPage
-        title="Hotel California"
+        title="HOTEL CALIFORNIA"
         description={
           <>
+            <br />
             A principal inspiração por trás de &quot;<strong>Hotel California</strong>&quot;não era um lugar real, mas uma metáfora. <strong>Don Henley</strong>, o principal letrista, falou sobre a ideia de tentar capturar o ambiente excessivo da vida na Califórnia, especialmente Los Angeles, que ele via como uma mistura de prazer e armadilhas. A música descreve a viagem de alguém a um local maravilhoso, mas misterioso e, de certa forma, desorientador, onde a pessoa se vê presa.
             <br />
             <br />
