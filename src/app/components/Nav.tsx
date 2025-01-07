@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Nav: React.FC = () => {
   return (
-    <nav className="bg-white p-4">
+    <nav className="bg-white p-4 border">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
 
 
@@ -19,7 +19,7 @@ const Nav: React.FC = () => {
         </div>
 
         {/* Logo ou nome do site */}
-        <div className="text-pink-900 text-4xl font-bold">
+        <div className="text-pink-900 text-4xl font-bold ">
           HISTÓRIA DAS LETRAS
         </div>
 

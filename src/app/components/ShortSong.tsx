@@ -6,12 +6,13 @@ interface ShortSongProps {
     description: string;
     composer: string;
     artist: string;
+    pageUrl: string;
   }
 
-const ShortSong = ({musicName, description, composer, artist}: ShortSongProps) => {
+const ShortSong = ({musicName, description, composer, artist, pageUrl}: ShortSongProps) => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md max-w-xs w-full">
-        <Link href={`/lyrics/${musicName.trim().toLowerCase()}`} className="text-2xl font-bold text-pink-900">
+        <Link href={`/lyrics/${pageUrl}`} className="text-2xl font-bold text-pink-900">
           {musicName}
         </Link>              
             <p className="text-gray-400 text-xs"> Artista: {artist}</p>

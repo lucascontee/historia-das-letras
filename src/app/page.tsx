@@ -31,6 +31,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
 
           <ShortSong
@@ -38,6 +39,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="Led Zeppelin"
           composer="Robbert Plant"
+          pageUrl="stairwaytoheaven"
           />
 
           
@@ -46,6 +48,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="Eagles"
           composer="Lennon/Mccartney"
+          pageUrl="hotelcalifornia"
           />
         </div>
 
@@ -56,6 +59,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
 
           <ShortSong
@@ -63,32 +67,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
-          />
-
-          
-          <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          />
-        </div>
-
-
-        <div className="flex flex-wrap justify-center gap-8 p-6">
-          
-          <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          />
-
-          <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
 
           
@@ -97,6 +76,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
         </div>
 
@@ -108,6 +88,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
 
           <ShortSong
@@ -115,6 +96,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
 
           
@@ -123,6 +105,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
         </div>
 
@@ -134,6 +117,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
 
           <ShortSong
@@ -141,6 +125,7 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
 
           
@@ -149,6 +134,36 @@ export default function Home() {
           description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
           artist="The Beatles"
           composer="Lennon/Mccartney"
+          pageUrl="yesterday"
+          />
+        </div>
+
+
+        <div className="flex flex-wrap justify-center gap-8 p-6">
+          
+          <ShortSong
+          musicName="Yestarday"
+          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+          artist="The Beatles"
+          composer="Lennon/Mccartney"
+          pageUrl="yesterday"
+          />
+
+          <ShortSong
+          musicName="Yestarday"
+          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+          artist="The Beatles"
+          composer="Lennon/Mccartney"
+          pageUrl="yesterday"
+          />
+
+          
+          <ShortSong
+          musicName="Yestarday"
+          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+          artist="The Beatles"
+          composer="Lennon/Mccartney"
+          pageUrl="yesterday"
           />
         </div>
 

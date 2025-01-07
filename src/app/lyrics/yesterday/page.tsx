@@ -1,5 +1,6 @@
 import MusicPage from "../../components/MusicPage";
 import Nav from "../../components/Nav";
+import ShortSong from "@/app/components/ShortSong";
 
 const Yestarday: React.FC = () => {
 
@@ -25,8 +26,41 @@ const Yestarday: React.FC = () => {
         }
         artist="The Beatles"
         composer="Lennon/Mccartney"
+        imageUrlComposer="beatles.jpg"
         />
+        <hr className="w-4/5 m-auto mt-10"/>
+
+        <h1 className="text-center text-4xl font-bold text-pink-900 mt-20 mb-4">MÚSICAS RELACIONADAS</h1>
+
+        <div className="flex flex-wrap justify-center gap-8 p-6">
+          
+          <ShortSong 
+            musicName="In My Life"
+            artist="The Beatles"
+            composer="Lennon/McCartney"
+            description="Uma música para lembrar a infância do John"
+            pageUrl="inmylife"
+          />
+
+          <ShortSong
+            musicName="Stairway to Heaven"
+            description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+            artist="Led Zeppelin"
+            composer="Robbert Plant"
+            pageUrl="stairwaytoheaven"
+          />
+
+          
+          <ShortSong
+            musicName="Hotel Califórnia"
+            description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+            artist="Eagles"
+            composer="Lennon/Mccartney"
+            pageUrl="hotelcalifornia"
+          />
+        </div>
     </div>
+
     
   );
 };
