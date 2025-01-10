@@ -1,7 +1,23 @@
+"use client";
+
 import React from 'react';
 import Link from 'next/link';
 
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+
+
 const Nav: React.FC = () => {
+
+  const [query, setQuery] = useState("");
+  const router = useRouter();
+
+  const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if(e.key == "Enter"){
+      router.push(`../search?q=${query}`)
+    }
+  }
+
   return (
     <nav className="bg-white p-4 border">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
@@ -29,6 +45,10 @@ const Nav: React.FC = () => {
             type="text"
             placeholder="Pesquisar músicas..."
             className="p-2 pl-10 pr-4 rounded-lg text-gray-700 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={handleSearch}
+
           />
         </div>
 

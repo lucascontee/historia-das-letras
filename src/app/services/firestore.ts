@@ -4,7 +4,7 @@ import { db } from "./firebase"; // Importando o db configurado
 
 export async function searchSongs(keyword: string) {
   const songsCollection = collection(db, "songs");
-  const q = query(songsCollection, where("title", ">=", keyword), where("title", "<=", keyword + "\uf8ff"));
+  const q = query(songsCollection, where("songName", ">=", keyword), where("songName", "<=", keyword + "\uf8ff"));
 
   const querySnapshot = await getDocs(q);
   const results: any[] = [];
