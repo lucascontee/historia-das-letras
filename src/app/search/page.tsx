@@ -43,7 +43,7 @@ export default function SearchPage() {
   }, [q]);
 
   if (isLoading) {
-    return <div>Carregando...</div>;
+    return <div>Buscando...</div>;
   }
 
   return (

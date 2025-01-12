@@ -5,24 +5,24 @@ import ShortSong from "./components/ShortSong";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-palet-blue1">
       <Nav /> 
-      <div className="flex flex-col bg-white">
+      <div className="flex flex-col">
 
-        <div className="text-center justify-center mb-10 h-screen	bg-pink-950"	  style={{
-          backgroundSize: 'cover',   // Para cobrir todo o fundo
-          backgroundPosition: 'center', // Para centralizar a imagem
-          backgroundRepeat: 'no-repeat',  // Para evitar repetição da imagem
+        <div className="text-center justify-center mb-10 h-screen bg-palet-white"	  style={{
+          backgroundSize: 'cover',   
+          backgroundPosition: 'center', 
+          backgroundRepeat: 'no-repeat',  
           height: '55vh'
-  }}> 
+        }}> 
       
-          <h1 className="text-8xl font-script font-bold text-white mb-4 mt-80">História das Letras</h1>
-          <p className="text-sm text-white max-w-3xl mx-auto">
+          <h1 className="text-8xl font-bold text-palet-blue1 mb-4 mt-80">História das Letras</h1>
+          <p className="text-sm text-palet-blue1 max-w-3xl mx-auto">
             Aqui nós vamos te contar como que a sua música preferida foi composta, de onde surgiu a inspiração para escrever.
           </p>
         </div>
 
-        <h1 className="text-center text-4xl font-bold text-pink-900 mt-20 mb-4">TOP 15 DO MÊS</h1>
+        <h1 className="text-center text-palet-blue1 text-4xl font-bold mt-20 mb-4">TOP 15 DO MÊS</h1>
         {/* Seção de Manchetes */}
         <div className="flex flex-wrap justify-center gap-8 p-6">
           

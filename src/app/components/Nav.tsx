@@ -19,28 +19,25 @@ const Nav: React.FC = () => {
   }
 
   return (
-    <nav className="bg-white p-4 border">
+    <nav className="bg-palet-blue1 p-4 border">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
 
-
-        <div>
-          <ul  className="list-style-type: none; flex flex-row gap-10 ">
-            <li>
-              <Link href="/">
-                Home
-              </Link>
-            </li>
-            <li>Sugerir Composição</li>
-          </ul>
+        <div className="text-white font-script text-6xl font-bold ">
+          <Link href="/">História das Letras</Link>
         </div>
 
-        {/* Logo ou nome do site */}
-        <div className="text-pink-900 text-4xl font-bold ">
-          HISTÓRIA DAS LETRAS
-        </div>
-
-        {/* Barra de pesquisa */}
-        <div className="relative">
+        <div className="relative flex gap-4 items-center text-white">
+          <div>
+            <ul  className="list-style-type: none; flex flex-row gap-10 ">
+              <li>
+                <Link href="/">
+                  Home
+                </Link>
+              </li>
+              <li>Sugerir Composição</li>
+            </ul>
+          </div>
+        
           <input
             type="text"
             placeholder="Pesquisar músicas..."
@@ -48,7 +45,6 @@ const Nav: React.FC = () => {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={handleSearch}
-
           />
         </div>
 

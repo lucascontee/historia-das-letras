@@ -12,8 +12,8 @@ interface ShortSongProps {
 
 const ShortSongSearch = ({musicName, description, composer, artist, genre, pageUrl}: ShortSongProps) => {
   return (
-    <div className="bg-white p-6 rounded-lg border-b w-10/12 ml-10 w-full">
-        <Link href={`${pageUrl}`} className="text-2xl font-bold text-pink-900">
+    <div className="bg-white p-6 rounded-lg border-b w-9/12 ml-10 w-full">
+        <Link href={`${pageUrl}`} className="text-2xl font-bold">
           {musicName}
         </Link>              
             <p className="text-gray-400 text-xs"> Artista: {artist}</p>

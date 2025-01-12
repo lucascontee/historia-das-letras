@@ -30,9 +30,9 @@ const Yestarday: React.FC = () => {
         />
         <hr className="w-4/5 m-auto mt-10"/>
 
-        <h1 className="text-center text-4xl font-bold text-pink-900 mt-20 mb-4">MÚSICAS RELACIONADAS</h1>
+        <h1 className="text-center text-4xl font-bold text-slate-800 mt-20 mb-4">MÚSICAS RELACIONADAS</h1>
 
-        <div className="flex flex-wrap justify-center gap-8 p-6">
+        <div className="flex flex-wrap justify-center gap-8 p-6 bg-palet-blue1">
           
           <ShortSong 
             musicName="In My Life"

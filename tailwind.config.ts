@@ -9,7 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        palet: {
+          white:'#f0eae4',
+          blue4: '#3CA6A6',
+          blue3: '#026773',
+          blue2: '#024959',
+          blue1: '#012E40'
+        },
         foreground: "var(--foreground)",
       },
       fontFamily:{
