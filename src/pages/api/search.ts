@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { searchSongs } from '../services/firestore';  // Função que busca músicas no Firestore
+import { searchSongs } from '../../app/services/firestore';  // Função que busca músicas no Firestore
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { q } = req.query;

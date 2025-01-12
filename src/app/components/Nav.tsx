@@ -14,7 +14,7 @@ const Nav: React.FC = () => {
 
   const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if(e.key == "Enter"){
-      router.push(`../search?q=${query}`)
+      router.push(`../search?q=${query.toLowerCase()}`)
     }
   }
 

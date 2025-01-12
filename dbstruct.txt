@@ -1,0 +1,17 @@
+artist
+
+genre
+
+releaseDate
+
+songDescription
+
+songLanguage
+
+songName
+
+songUrl
+
+songWriter
+
+tags - array
