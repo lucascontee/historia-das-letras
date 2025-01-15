@@ -10,13 +10,16 @@ export default {
     extend: {
       colors: {
         palet: {
-          white:'#f0eae4',
+          white:'#ffffff',
           blue4: '#3CA6A6',
           blue3: '#026773',
           blue2: '#024959',
-          blue1: '#012E40'
+          blue1: '#040605'
         },
         foreground: "var(--foreground)",
+      },
+      borderWidth: {
+        '0.5': '0.5px', // Define uma borda mais fina
       },
       fontFamily:{
         script: ['Tangerine', 'Arial', 'serif']

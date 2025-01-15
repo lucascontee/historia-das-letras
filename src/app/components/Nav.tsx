@@ -19,12 +19,10 @@ const Nav: React.FC = () => {
   }
 
   return (
-    <nav className="bg-palet-blue1 p-4 border">
+    <nav className="bg-palet-blue1 p-4 border-b border-gray-900">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
 
-        <div className="text-white font-script text-6xl font-bold ">
-          <Link href="/">História das Letras</Link>
-        </div>
+        
 
         <div className="relative flex gap-4 items-center text-white">
           <div>
@@ -37,6 +35,11 @@ const Nav: React.FC = () => {
               <li>Sugerir Composição</li>
             </ul>
           </div>
+        </div>
+
+        <div className="text-white  text-4xl font-bold ">
+          <Link href="/">História das Letras</Link>
+        </div>
         
           <input
             type="text"
@@ -46,7 +49,7 @@ const Nav: React.FC = () => {
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={handleSearch}
           />
-        </div>
+        
 
         
       </div>
