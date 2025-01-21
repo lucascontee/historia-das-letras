@@ -56,7 +56,7 @@ const Yestarday: React.FC = () => {
             description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
             artist="Eagles"
             composer="Lennon/Mccartney"
-            pageUrl="hotelcalifornia"
+            pageUrl="eagles/hotelcalifornia"
           />
         </div>
     </div>

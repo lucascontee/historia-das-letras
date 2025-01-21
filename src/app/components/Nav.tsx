@@ -68,7 +68,7 @@ const Nav: React.FC = () => {
                   Home
                 </Link>
               </li>
-              <li  className="hover:text-slate-300 p-2" onClick={() => setIsModalOpen(true)}>Sugerir Composição</li>
+              <li  className="cursor-pointer hover:text-slate-300 p-2" onClick={() => setIsModalOpen(true)}>Sugerir Composição</li>
             </ul>
           </div>
         </div>

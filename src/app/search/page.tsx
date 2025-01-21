@@ -51,7 +51,7 @@ export default function SearchPage() {
   return (
     <div>
       <Nav /> 
-      <h1 className="ml-10 mt-5 text-slate-500">Exibindo esultados para: {q?.toUpperCase()}</h1>
+      <h1 className="ml-10 mt-5 text-gray-500">Exibindo esultados para: {q?.toUpperCase()}</h1>
       {results.length === 0 ? (
         <p className="ml-10 mt-5 text-red-800">Nenhuma música encontrada! </p>
       ) : (

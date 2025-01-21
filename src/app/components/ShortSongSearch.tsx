@@ -13,13 +13,13 @@ interface ShortSongProps {
 const ShortSongSearch = ({musicName, description, composer, artist, genre, pageUrl}: ShortSongProps) => {
   return (
     <Link href={`${pageUrl}`}>
-      <div className="bg-white p-6 border-b ml-10 w-3/4">
+      <div className="bg-palet-white border-b border-black p-6 ml-10 w-3/4 hover:bg-palet-white2 transition-all duration-300">
         
           <h1 className='text-2xl font-bold'>{musicName}</h1>
                     
-            <p className="text-slate-500 text-xs"> Artista: {artist}</p>
-            <p className="text-slate-500 text-xs" > Compositor: {composer}</p>
-            <p className="text-slate-500 mb-4 text-xs" > Gênero: {genre}</p>
+            <p className="text-gray-500 text-xs"> Artista: {artist}</p>
+            <p className="text-gray-500 text-xs" > Compositor: {composer}</p>
+            <p className="text-gray-500 mb-4 text-xs" > Gênero: {genre}</p>
             <p className="text-black">
             {description}
             </p>
