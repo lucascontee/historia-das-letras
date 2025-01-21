@@ -11,16 +11,16 @@ interface ShortSongProps {
 
 const ShortSong = ({musicName, description, composer, artist, pageUrl}: ShortSongProps) => {
   return (
-    <div className="p-6 rounded-lg shadow-md max-w-xs w-full bg-palet-white">
-      <Link href={`/lyrics/${pageUrl}`} className="text-2xl font-bold text-palet-blue1">
-        {musicName}
-      </Link>              
-      <p className="text-palet-blue2 text-xs"> Artista: {artist}</p>
-      <p className="text-palet-blue2 mb-4 text-xs" > Compositor: {composer}</p>
-      <p className="text-palet-blue1">
-        {description}
-      </p>
-    </div>
+    <Link href={`/lyrics/${pageUrl}`} className="">
+      <div className="p-6 rounded-lg shadow-md h-56 max-w-xs w-full bg-white hover:bg-palet-white2 hover:shadow-xl hover:-translate-y-4 hover:-translate-x-2 transition-all duration-300 hover:border hover:border-black">
+
+        <h1 className="text-2xl font-bold">{musicName}</h1>             
+        <p className="text-slate-500 text-xs"> Artista: {artist}</p>
+        <p className="text-slate-500 mb-4 text-xs" > Compositor: {composer}</p>
+        <p className="text-palet-blue1"> {description}</p>
+
+      </div>
+    </Link> 
   );
 };
 

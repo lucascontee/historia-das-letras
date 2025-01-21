@@ -10,11 +10,12 @@ export default {
     extend: {
       colors: {
         palet: {
-          white:'#ffffff',
+          white:'#e9e5df',
+          white2:'#f3f2f0',
           blue4: '#3CA6A6',
           blue3: '#026773',
-          blue2: '#024959',
-          blue1: '#040605'
+          brown2: '#024959',
+          brown1: '#4b453c'
         },
         foreground: "var(--foreground)",
       },

@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { collection, query, where, getDocs } from "firebase/firestore";
-import { db } from "./firebase"; // Importando o db configurado
+import { db } from "./firebase"; 
 
 export async function searchSongs(keyword: string) {
-  // Se a palavra-chave de busca estiver vazia, retornamos todos os resultados
+  
   if (!keyword) {
     console.log('Buscando todas as músicas...');
     const songsCollection = collection(db, "songs");
@@ -14,12 +14,10 @@ export async function searchSongs(keyword: string) {
       allSongs.push({ id: doc.id, ...doc.data() });
     });
     
-    return allSongs; // Retorna todos os documentos quando a busca está vazia
   }
 
   const songsCollection = collection(db, "songs");
   
-  // Consulta para buscar músicas pelo nome com base na palavra-chave (busca por prefixo)
   const q = query(
     songsCollection,
     where("songName", ">=", keyword.toLowerCase()),

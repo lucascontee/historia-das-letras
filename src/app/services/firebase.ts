@@ -14,7 +14,6 @@ const firebaseConfig = {
   measurementId: "G-WRXTX2XS1W"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app)
 if (typeof window !== 'undefined' && typeof window.document !== 'undefined') {

@@ -32,7 +32,7 @@ const HotelCalifornia: React.FC = () => {
 
     <hr className="w-4/5 m-auto mt-10"/>
 
-    <h1 className="text-center text-4xl font-bold text-pink-900 mt-20 mb-4">MÚSICAS RELACIONADAS</h1>
+    <h1 className="text-center text-4xl font-bold text-palet-brown1 mt-20 mb-4">MÚSICAS RELACIONADAS</h1>
 
     <div className="flex flex-wrap justify-center gap-8 p-6">
       

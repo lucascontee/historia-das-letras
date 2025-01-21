@@ -12,17 +12,20 @@ interface ShortSongProps {
 
 const ShortSongSearch = ({musicName, description, composer, artist, genre, pageUrl}: ShortSongProps) => {
   return (
-    <div className="bg-white p-6 rounded-lg border-b w-9/12 ml-10 w-full">
-        <Link href={`${pageUrl}`} className="text-2xl font-bold">
-          {musicName}
-        </Link>              
-            <p className="text-gray-400 text-xs"> Artista: {artist}</p>
-            <p className="text-gray-400 text-xs" > Compositor: {composer}</p>
-            <p className="text-gray-400 mb-4 text-xs" > Gênero: {genre}</p>
-            <p className="text-gray-600">
+    <Link href={`${pageUrl}`}>
+      <div className="bg-white p-6 border-b ml-10 w-3/4">
+        
+          <h1 className='text-2xl font-bold'>{musicName}</h1>
+                    
+            <p className="text-slate-500 text-xs"> Artista: {artist}</p>
+            <p className="text-slate-500 text-xs" > Compositor: {composer}</p>
+            <p className="text-slate-500 mb-4 text-xs" > Gênero: {genre}</p>
+            <p className="text-black">
             {description}
             </p>
-          </div>
+          
+        </div>
+      </Link>  
   );
 };
 
