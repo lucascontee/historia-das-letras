@@ -44,16 +44,16 @@ export default function Home() {
 
           <ShortSong
           musicName="Stairway to Heaven"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+          description="Stairway to Heaven é considerada um hino do rock, marcada pelo icônico solo de guitarra e uma narrativa mística sobre a busca espiritual."
           artist="Led Zeppelin"
-          composer="Robbert Plant"
-          pageUrl="stairwaytoheaven"
+          composer="Jimmy Page / Robert Plant"
+          pageUrl="ledzeppelin/stairwaytoheaven"
           />
 
           
           <ShortSong
           musicName="Hotel Califórnia"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+          description="Hotel California é uma metáfora para o estilo de vida glamouroso e perigoso de Los Angeles nos anos 70."
           artist="Eagles"
           composer="Lennon/Mccartney"
           pageUrl="eagles/hotelcalifornia"

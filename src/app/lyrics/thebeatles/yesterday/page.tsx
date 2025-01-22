@@ -27,6 +27,7 @@ const Yestarday: React.FC = () => {
         artist="The Beatles"
         composer="Lennon/Mccartney"
         imageUrlComposer="beatles.jpg"
+        imgDescription="The Beatles"
         />
         <hr className="w-4/5 m-auto mt-10"/>
 

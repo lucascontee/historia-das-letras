@@ -20,9 +20,9 @@ const Nav: React.FC = () => {
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    e.preventDefault();
     if(e.key === "Enter"){
-      router.push(`../search?q=${query.toLowerCase()}`)
+      e.preventDefault();
+      router.push(`/search?q=${encodeURIComponent(query.toLowerCase())}`)
     }
   }
 
@@ -80,13 +80,13 @@ const Nav: React.FC = () => {
           <input
             type="text"
             placeholder="Pesquisar músicas..."
-            className="p-2 pl-10 pr-4 rounded-lg text-gray-700 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="p-2 pl-10 pr-4 rounded-lg text-gray-700 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => {
               if (e.key === "Enter") {
                 e.preventDefault(); // Previne a ação padrão (que pode ser o envio de formulário)
-                router.push(`../search?q=${query.toLowerCase()}`); // Executa a busca
+                router.push(`/search?q=${encodeURIComponent(query.toLowerCase())}`); // Executa a busca
               }
             }}
           />

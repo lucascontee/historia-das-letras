@@ -28,6 +28,7 @@ const HotelCalifornia: React.FC = () => {
         artist="Eagles"
         composer="Glenn Lewis Frey / Don Felder / Donald Hugh Henley"
         imageUrlComposer="eagles.png"
+        imgDescription="Eagles"
         />
 
     <hr className="w-4/5 m-auto mt-10"/>
