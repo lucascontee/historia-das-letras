@@ -2,6 +2,8 @@ import React from "react";
 import Nav from "./components/Nav";
 import ShortSong from "./components/ShortSong";
 import Head from "next/head";
+import Footer from "./components/Footer";
+
 
 
 export default function Home() {
@@ -32,6 +34,7 @@ export default function Home() {
         </div>
 
         <h1 className="text-center text-palet-blue1 text-4xl font-bold mt-20 mb-4">HISTÓRIAS RECOMENDADAS</h1>
+
         <div className="flex flex-wrap justify-center gap-8 p-6">
           
           <ShortSong
@@ -174,8 +177,9 @@ export default function Home() {
           pageUrl="yesterday"
           />
         </div>
-
+        <Footer />
       </div>
+      
     </div>
       
   );

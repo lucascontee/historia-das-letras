@@ -12,6 +12,7 @@ interface MusicPageProps {
 
 const MusicPage = ({title, description, composer, artist, imageUrlComposer, imgDescription}: MusicPageProps) => {
   return (
+    <>
     <div className="flex justify-center mt-10">
       <div className="p-6 w-full bg-palet-white2 rounded-xl border border-gray-300 max-w-4xl px-4 mt-5">
 
@@ -27,6 +28,8 @@ const MusicPage = ({title, description, composer, artist, imageUrlComposer, imgD
         <p className="text-black700 text-lg">{description}</p>
       </div>
     </div>
+      <hr className="mt-10 border-palet-brown1" />
+    </>
   );
 };
 
