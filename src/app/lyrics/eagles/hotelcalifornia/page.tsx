@@ -1,3 +1,4 @@
+import Footer from "@/app/components/Footer";
 import MusicPage from "../../../components/MusicPage";
 import Nav from "../../../components/Nav";
 import ShortSong from "@/app/components/ShortSong";
@@ -37,12 +38,12 @@ const HotelCalifornia: React.FC = () => {
 
     <div className="flex flex-wrap justify-center gap-8 p-6">
       
-      <ShortSong 
-        artist="The Beatles"
-        composer="Lennon/McCartney"
-        description="Uma música para lembrar a infância do John"
-        musicName="Yesterday"
-        pageUrl="yesterday"
+      <ShortSong
+        musicName="Bohemian Rhapsody"
+        description="Uma das mais emblemáticas do rock, tem uma narrativa complexa, com várias mudanças de estilo musical, e a história da letra é misteriosa."
+        artist="Queen"
+        composer="Freddie Mercury"
+        pageUrl="queen/bohemianrhapsody"
       />
 
       <ShortSong
@@ -50,18 +51,18 @@ const HotelCalifornia: React.FC = () => {
         description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
         artist="Led Zeppelin"
         composer="Robbert Plant"
-        pageUrl="hotelcalifornia"
+        pageUrl="ledzeppelin/stairwaytoheaven"
       />
-
       
-      <ShortSong 
-        musicName="In My Life"
+      <ShortSong
+        musicName="Yesterday"
+        description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
         artist="The Beatles"
-        composer="Lennon/McCartney"
-        description="Uma música para lembrar a infância do John"
-        pageUrl="inmylife"
+        composer="Lennon/Mccartney"
+        pageUrl="thebeatles/yesterday"
       />
     </div>
+        <Footer/>
     </div>
     
   );

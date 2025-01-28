@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '408px', 
+      },
       colors: {
         palet: {
           white:'#e9e5df',
@@ -20,7 +23,7 @@ export default {
         foreground: "var(--foreground)",
       },
       borderWidth: {
-        '0.5': '0.5px', // Define uma borda mais fina
+        '0.5': '0.5px',
       },
       fontFamily:{
         script: ['Tangerine', 'Arial', 'serif']

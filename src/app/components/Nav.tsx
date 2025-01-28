@@ -17,8 +17,8 @@ const Nav: React.FC = () => {
     email: "",
     suggestion: "",
   });
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if(e.key === "Enter"){
       e.preventDefault();
@@ -55,48 +55,88 @@ const Nav: React.FC = () => {
 
   return (
     <>
-    <nav className="bg-black p-4 border-b border-gray-900">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <nav className="bg-black p-4 border-b border-gray-900 ">
+        <div className="max-w-7xl mx-auto flex justify-between items-center">
 
-        
-
-        <div className="relative flex gap-4 items-center text-white">
-          <div>
-            <ul  className="list-style-type: none; flex flex-row gap-10 ">
-              <li  className="hover:text-slate-300 p-2">
-                <Link href="/">
-                  Home
-                </Link>
+          <div className="relative flex gap-4 items-center text-white hidden md:flex">
+            <ul className="flex gap-10">
+              <li className="hover:text-slate-300 p-2">
+                <Link href="/">Home</Link>
               </li>
-              <li  className="cursor-pointer hover:text-slate-300 p-2" onClick={() => setIsModalOpen(true)}>Sugerir Composição</li>
+              <li
+                className="cursor-pointer hover:text-slate-300 p-2"
+                onClick={() => setIsModalOpen(true)}
+              >
+                Sugerir Composição
+              </li>
             </ul>
           </div>
-        </div>
 
-        <div className="text-white text-4xl font-bold ">
-          <Link href="/">História das Letras</Link>
-        </div>
-        
+          <div className="text-white text-4xl font-bold">
+            <Link href="/">História das Letras</Link>
+          </div>
+
           <input
             type="text"
             placeholder="Pesquisar músicas..."
             className="p-2 pl-10 pr-4 rounded-lg text-gray-700 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                e.preventDefault(); // Previne a ação padrão (que pode ser o envio de formulário)
-                router.push(`/search?q=${encodeURIComponent(query.toLowerCase())}`); // Executa a busca
-              }
-            }}
+            onKeyDown={handleSearch}
           />
-      </div>
-    </nav>
 
-    {isModalOpen && (
+          <div
+            className="md:hidden flex items-center "
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="w-6 h-6 text-white"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </div>
+        </div>
+      </nav>
+
+      {isMenuOpen && (
+        <div className="md:hidden fixed inset-0 bg-black bg-opacity-50 z-50">
+          <div className="bg-palet-white p-6 rounded-lg shadow-lg w-full max-w-md">
+            <ul>
+              <li
+                className="hover:text-amber-950 p-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <Link href="/">Home</Link>
+              </li>
+              <li
+                className="cursor-pointer hover:text-amber-950 p-2"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  setIsModalOpen(true);
+                }}
+              >
+                Sugerir Composição
+              </li>
+            </ul>
+          </div>
+        </div>
+      )}
+
+      {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-            <h2 className=" font-script text-6xl font-bold mb-4">Sugerir Composição</h2>
+            <h2 className="font-script text-6xl font-bold mb-4">
+              Sugerir Composição
+            </h2>
             <form onSubmit={handleSubmit} className="space-y-4">
               <input
                 type="text"
