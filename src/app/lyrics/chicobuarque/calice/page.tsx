@@ -40,11 +40,11 @@ const Yestarday: React.FC = () => {
         <div className="flex flex-wrap justify-center gap-8 p-6">
           
           <ShortSong
-            musicName="Bohemian Rhapsody"
-            description="Uma das mais emblemáticas do rock, tem uma narrativa complexa, com várias mudanças de estilo musical, e a história da letra é misteriosa."
-            artist="Queen"
-            composer="Freddie Mercury"
-            pageUrl="queen/bohemianrhapsody"
+            musicName="O Mundo É Um Moinho"
+            description="Cartola escreveu uma música para sua enteada, relatando os quão perigoso pode ser o mundo."
+            artist="Cartola"
+            composer="Cartola"
+            pageUrl="cartola/omundoeummoinho"
           />
 
           <ShortSong
@@ -55,16 +55,19 @@ const Yestarday: React.FC = () => {
             pageUrl="ledzeppelin/stairwaytoheaven"
           />
 
-          
-          <ShortSong
-            musicName="Hotel California"
-            description="Hotel California é uma metáfora para o estilo de vida glamouroso e perigoso de Los Angeles nos anos 70."
-            artist="Eagles"
-            composer="Glenn Lewis Frey / Don Felder / Donald Hugh Henley"
-            pageUrl="eagles/hotelcalifornia"
-          />
+            
+            <ShortSong
+              musicName="Hotel California"
+              description="Hotel California é uma metáfora para o estilo de vida glamouroso e perigoso de Los Angeles nos anos 70."
+              artist="Eagles"
+              composer="Glenn Lewis Frey / Don Felder / Donald Hugh Henley"
+              pageUrl="eagles/hotelcalifornia"
+            />
+
         </div>
-        <Footer />
+
+      <Footer />
+
     </div>
 
     

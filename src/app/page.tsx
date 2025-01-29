@@ -13,9 +13,9 @@ export default function Home() {
         <title>História das Letras</title>
       </Head>
       <Nav /> 
-      <div className="flex flex-col w-screen">
+      <div className="flex flex-col">
 
-        <div className="text-center justify-center mb-10 h-screen w-screen bg-palet-white"	  style={{
+        <div className="text-center justify-center mb-10 h-screen bg-palet-white"	  style={{
           backgroundImage: 'url(/img/background.jpg)',
           backgroundSize: 'cover',   
           backgroundPosition: 'center', 
@@ -103,11 +103,11 @@ export default function Home() {
           />
 
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          musicName="O Mundo É Um Moinho"
+          description="Cartola escreveu uma música para sua enteada, relatando os quão perigoso pode ser o mundo."
+          artist="Cartola"
+          composer="Cartola"
+          pageUrl="cartola/omundoeummoinho"
           />
 
           

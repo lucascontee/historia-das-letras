@@ -72,7 +72,7 @@ const Nav: React.FC = () => {
             </ul>
           </div>
 
-          <div className="text-white text-4xl font-bold">
+          <div className="text-white xs:text-4xl font-bold">
             <Link href="/">História das Letras</Link>
           </div>
 
