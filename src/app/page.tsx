@@ -67,18 +67,18 @@ export default function Home() {
           
           <ShortSong
           musicName="Cálice"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          description="Reflete a resistência de Chico Buarque e Gilberto Gil contra a censura da ditadura militar "
+          artist="Chico Buarque"
+          composer="Chico Buarque / Gilberto Gil "
+          pageUrl="chicobuarque/calice"
           />
 
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+          musicName="Eleanor Rigby"
+          description="Reflete as inspirações de Paul McCartney em sua convivência com pessoas solitárias"
           artist="The Beatles"
           composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          pageUrl="thebeatles/eleanorrigby"
           />
 
           
@@ -95,11 +95,11 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-8 p-6">
           
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          musicName="Another Brick In The Wall"
+          description="Uma crítica ao sistema educacional rígido e opressor das escolas autoritárias que roger frequentou"
+          artist="Pink Floyd"
+          composer="Roger Waters"
+          pageUrl="pinkfloyd/anotherbrickinthewall"
           />
 
           <ShortSong

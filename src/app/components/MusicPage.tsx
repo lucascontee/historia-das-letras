@@ -25,7 +25,7 @@ const MusicPage = ({title, description, composer, artist, imageUrlComposer, imgD
         </div>
         <p className="text-xs	text-gray-500 mb-6 ml-2">&copy; {imgDescription}</p>
 
-        <p className="text-black700 text-lg">{description}</p>
+        <p className="text-black700 text-lg pb-10">{description}</p>
       </div>
     </div>
       <hr className="mt-10 border-palet-brown1" />
