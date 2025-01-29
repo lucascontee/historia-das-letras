@@ -3,7 +3,7 @@ import MusicPage from "../../../components/MusicPage";
 import Nav from "../../../components/Nav";
 import ShortSong from "@/app/components/ShortSong";
 
-const Yestarday: React.FC = () => {
+const eleanorrigby: React.FC = () => {
 
   
   return (
@@ -79,4 +79,4 @@ const Yestarday: React.FC = () => {
   );
 };
 
-export default Yestarday;
+export default eleanorrigby;

@@ -3,7 +3,7 @@ import MusicPage from "../../../components/MusicPage";
 import Nav from "../../../components/Nav";
 import ShortSong from "@/app/components/ShortSong";
 
-const Yestarday: React.FC = () => {
+const Omundoeummoinho: React.FC = () => {
 
   
   return (
@@ -61,11 +61,11 @@ const Yestarday: React.FC = () => {
         />
 
         <ShortSong
-            musicName="Stairway to Heaven"
-            description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-            artist="Led Zeppelin"
-            composer="Robbert Plant"
-            pageUrl="ledzeppelin/stairwaytoheaven"
+          musicName="O Tempo Não Para"
+          description="Uma música carregada de protestos e críticas, escrita por Cazuza, durante o período em que ele estava doente"
+          artist="Cazuza"
+          composer="Cazuza"
+          pageUrl="cazuza/otemponaopara"
         />
 
           
@@ -84,4 +84,4 @@ const Yestarday: React.FC = () => {
   );
 };
 
-export default Yestarday;
+export default Omundoeummoinho;

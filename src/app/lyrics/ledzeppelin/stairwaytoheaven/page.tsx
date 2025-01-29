@@ -3,7 +3,7 @@ import MusicPage from "../../../components/MusicPage";
 import Nav from "../../../components/Nav";
 import ShortSong from "@/app/components/ShortSong";
 
-const HotelCalifornia: React.FC = () => {
+const Stairwaytoheaven: React.FC = () => {
 
   
   return (
@@ -76,4 +76,4 @@ const HotelCalifornia: React.FC = () => {
   );
 };
 
-export default HotelCalifornia;
+export default Stairwaytoheaven;

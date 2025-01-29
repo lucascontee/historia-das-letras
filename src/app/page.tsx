@@ -112,11 +112,11 @@ export default function Home() {
 
           
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          musicName="O Tempo Não Para"
+          description="Uma música carregada de protestos e críticas, escrita por Cazuza, durante o período em que ele estava doente"
+          artist="Cazuza"
+          composer="Cazuza"
+          pageUrl="cazuza/otemponaopara"
           />
         </div>
 
