@@ -73,7 +73,7 @@ const Nav: React.FC = () => {
           </div>
 
           <div className="text-white xs:text-4xl font-bold">
-            <Link href="/">História das Letras</Link>
+            <Link href="/">História das Músicas</Link>
           </div>
 
           <input
@@ -124,7 +124,7 @@ const Nav: React.FC = () => {
                   setIsModalOpen(true);
                 }}
               >
-                Sugerir Composição
+                Sugerir Música
               </li>
             </ul>
           </div>
@@ -135,7 +135,7 @@ const Nav: React.FC = () => {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
             <h2 className="font-script text-6xl font-bold mb-4">
-              Sugerir Composição
+              Sugerir Música
             </h2>
             <form onSubmit={handleSubmit} className="space-y-4">
               <input

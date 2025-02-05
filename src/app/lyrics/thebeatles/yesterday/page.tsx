@@ -46,11 +46,12 @@ const Yestarday: React.FC = () => {
 
           <ShortSong
             musicName="Stairway to Heaven"
-            description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+            description="Stairway to Heaven é considerada um hino do rock, marcada pelo icônico solo de guitarra e uma narrativa mística sobre a busca espiritual."
             artist="Led Zeppelin"
-            composer="Robbert Plant"
+            composer="Jimmy Page / Robert Plant"
             pageUrl="ledzeppelin/stairwaytoheaven"
           />
+
 
           
           <ShortSong

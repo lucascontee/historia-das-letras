@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head> 
-        <title>História das Letras</title>
+        <title>História das Músicas</title>
       </Head>
       <Nav /> 
       <div className="flex flex-col">
@@ -24,7 +24,7 @@ export default function Home() {
         }}>
 
           <div className="justify-self-start	mt-20 ml-10">
-            <h1 className="text-5xl font-bold font-script text-white mb-4 text-5xl xs:text-9xl">História das Letras</h1>
+            <h1 className="text-5xl font-bold font-script text-white mb-4 text-5xl xs:text-9xl">História das Músicas</h1>
             <p className="text-base text-white max-w-3xl mx-auto xs:text-sm">
             Aqui nós vamos te contar como que a sua música preferida foi composta, de onde surgiu a inspiração para escrever.
             </p>
@@ -124,28 +124,28 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-8 p-6">
           
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
+          musicName="Hey Jude"
+          description="Paul Mccartney escreveu Hey Jude para Julian Lennon, para confortar o filho de John Lennon."
           artist="The Beatles"
           composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          pageUrl="thebeatles/heyjude"
           />
 
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          musicName="Redemption Song"
+          description="Escrita por Bob Marley, inspirada em Marcus Garvey, fala sobre liberdade, resistência e redenção, tornando-se um hino atemporal."
+          artist="Bob Marley"
+          composer="Bob Marley"
+          pageUrl="bobmarley/redemptionsong"
           />
 
           
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          musicName="Que País é Este"
+          description="Uma crítica à corrupção e desigualdade no Brasil, Que País é Este reflete indignação e protesto"
+          artist="Legião Urbana"
+          composer="Renato Russo"
+          pageUrl="legiaourbana/quepaiseeste"
           />
         </div>
 
@@ -153,11 +153,11 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-8 p-6">
           
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          musicName="November Rain"
+          description="Uma balada melancólica e poderosa sobre o fim de um relacionamento e a dor que vem com a perda"
+          artist="Guns n' Roses"
+          composer=" Darren A Reed / Duff McKagan / Izzy Stradlin / Matt Sorum / Saul Hudson / W. Axl Rose"
+          pageUrl="gunsnroses/novemberrain"
           />
 
           <ShortSong

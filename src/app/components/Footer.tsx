@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     <div className="flex flex-col md:flex-row justify-between">
       
       <div className="mb-8 md:mb-0">
-        <h2 className="text-2xl font-bold mb-4">História das Letras</h2>
+        <h2 className="text-2xl font-bold mb-4">História das Músicas</h2>
         <p className="text-gray-400">
           Descubra histórias fascinantes e curiosidades sobre suas músicas favoritas.
         </p>
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
 
     <div className="border-t border-gray-700 mt-8 pt-4 text-center">
       <p className="text-gray-400">
-        &copy; {new Date().getFullYear()} História das Letras. Todos os direitos reservados.
+        &copy; {new Date().getFullYear()} História das Músicas. Todos os direitos reservados.
       </p>
     </div>
   </div>

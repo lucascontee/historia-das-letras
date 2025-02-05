@@ -70,11 +70,11 @@ const Omundoeummoinho: React.FC = () => {
 
           
         <ShortSong
-            musicName="Hotel California"
-            description="Hotel California é uma metáfora para o estilo de vida glamouroso e perigoso de Los Angeles nos anos 70."
-            artist="Eagles"
-            composer="Glenn Lewis Frey / Don Felder / Donald Hugh Henley"
-            pageUrl="eagles/hotelcalifornia"
+          musicName="Que País é Este"
+          description="Uma crítica à corrupção e desigualdade no Brasil, Que País é Este reflete indignação e protesto"
+          artist="Legião Urbana"
+          composer="Renato Russo"
+          pageUrl="legiaourbana/quepaiseeste"
         />
         </div>
         <Footer />
