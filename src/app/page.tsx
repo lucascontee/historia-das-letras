@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import ShortSong from "./components/ShortSong";
 import Head from "next/head";
 import Footer from "./components/Footer";
+import Link from "next/link";
 
 
 
@@ -29,11 +30,27 @@ export default function Home() {
             Aqui nós vamos te contar como que a sua música preferida foi composta, de onde surgiu a inspiração para escrever.
             </p>
           </div>
-      
-          
+        </div>
+        <div>
+          <h1 className="text-center text-4xl font-bold mt-20 mb-8">MÚSICA DO DIA</h1>
+
+          <Link href="/lyrics/thebeatles/yesterday" className="flex justify-center mb-20">
+            <div className="p-6 rounded-lg shadow-md h-80 max-w-6xl w-xs bg-white hover:bg-palet-white2 hover:shadow-xl hover:-translate-y-4 hover:-translate-x-2 transition-all duration-300 hover:border hover:border-black">
+
+              <h1 className="text-8xl font-script font-bold text-center">Yesterday</h1>             
+              <p> <strong>Artista</strong>: The Beatles</p>
+              <p> <strong>Compositor:</strong> Lennon/Mccartney</p>
+              <p> <strong>Data de Lançamento:</strong> 11-061231</p>
+              <p className="mb-2"> <strong>Genêro:</strong> Rock</p>
+              <p> Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos. Foi a primeira música feita por único beatle</p>
+
+            </div>
+          </Link>
         </div>
 
-        <h1 className="text-center text-palet-blue1 text-4xl font-bold mt-20 mb-4">HISTÓRIAS RECOMENDADAS</h1>
+        <hr className="mt-10 border-palet-brown1" />
+
+        <h1 className="text-center text-4xl font-bold mt-20 mb-4">HISTÓRIAS RECOMENDADAS</h1>
 
         <div className="flex flex-wrap justify-center gap-8 p-6">
           
