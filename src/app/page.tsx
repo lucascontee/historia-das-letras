@@ -35,12 +35,12 @@ export default function Home() {
           <h1 className="text-center text-4xl font-bold mt-20 mb-8">MÚSICA DO DIA</h1>
 
           <Link href="/lyrics/thebeatles/yesterday" className="flex justify-center mb-20">
-            <div className="p-6 rounded-lg shadow-md h-80 max-w-6xl w-xs bg-white hover:bg-palet-white2 hover:shadow-xl hover:-translate-y-4 hover:-translate-x-2 transition-all duration-300 hover:border hover:border-black">
+            <div className="p-6 rounded-lg shadow-md h-80 max-w-6xl w-xs bg-white hover:bg-palet-white2 hover:shadow-xl hover:-translate-y-4 transition-all duration-300 border border-black">
 
               <h1 className="text-8xl font-script font-bold text-center">Yesterday</h1>             
               <p> <strong>Artista</strong>: The Beatles</p>
               <p> <strong>Compositor:</strong> Lennon/Mccartney</p>
-              <p> <strong>Data de Lançamento:</strong> 11-061231</p>
+              <p> <strong>Data de Lançamento:</strong> 29/07/1965</p>
               <p className="mb-2"> <strong>Genêro:</strong> Rock</p>
               <p> Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos. Foi a primeira música feita por único beatle</p>
 
@@ -178,20 +178,20 @@ export default function Home() {
           />
 
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          musicName="Garota de Ipanema"
+          description="Uma das músicas brasileiras mais famosas do mundo, Garota de Ipanema celebra a beleza e o encanto de uma pessoa real"
+          artist="Tom Jobim e Vinícius de Moraes"
+          composer="Tom Jobim / Vinícius de Moraes"
+          pageUrl="tomjobim/garotadeipanema"
           />
 
           
           <ShortSong
-          musicName="Yestarday"
-          description="Escrita por Paul Mccartney, Yestardey é a música com mais covers da história, e seu primeiro nome foi Ovos Mexidos"
-          artist="The Beatles"
-          composer="Lennon/Mccartney"
-          pageUrl="yesterday"
+          musicName="Wish You Were Here"
+          description="Wish You Were Here reflete sobre a ausência e a perda, sendo um tributo a Syd Barrett, ex-integrante da banda."
+          artist="Pink Floyd"
+          composer="Roger Waters / David Gilmour"
+          pageUrl="pinkfloyd/wishyouwerehere"
           />
         </div>
         <Footer />
