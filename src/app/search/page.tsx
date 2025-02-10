@@ -2,6 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
+import { Suspense } from 'react'
 
 import ShortSongSearch from "../components/ShortSongSearch";
 import Nav from "../components/Nav";
@@ -50,6 +51,9 @@ export default function SearchPage() {
 
   return (
     <div>
+      <Suspense>
+
+      
       <Nav /> 
       <h1 className="ml-10 mt-5 text-gray-500">Exibindo esultados para: {q?.toUpperCase()}</h1>
       {results.length === 0 ? (
@@ -70,6 +74,8 @@ export default function SearchPage() {
           ))}
         </ul>
       )}
+
+      </Suspense>
     </div>
   );
 }
