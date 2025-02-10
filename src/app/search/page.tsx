@@ -2,7 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";
-import { Suspense } from 'react'
+import { Suspense } from 'react';
 
 import ShortSongSearch from "../components/ShortSongSearch";
 import Nav from "../components/Nav";
@@ -19,7 +19,7 @@ interface Song {
   songWriter: string;
 }
 
-export default function SearchPage() {
+function SearchContent() {
   const searchParams = useSearchParams();
   const q = searchParams?.get("q");
 
@@ -51,11 +51,8 @@ export default function SearchPage() {
 
   return (
     <div>
-      <Suspense>
-
-      
       <Nav /> 
-      <h1 className="ml-10 mt-5 text-gray-500">Exibindo esultados para: {q?.toUpperCase()}</h1>
+      <h1 className="ml-10 mt-5 text-gray-500">Exibindo resultados para: {q?.toUpperCase()}</h1>
       {results.length === 0 ? (
         <p className="ml-10 mt-5 text-red-800">Nenhuma música encontrada! </p>
       ) : (
@@ -74,8 +71,14 @@ export default function SearchPage() {
           ))}
         </ul>
       )}
-
-      </Suspense>
     </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div>Carregando...</div>}>
+      <SearchContent />
+    </Suspense>
   );
 }
